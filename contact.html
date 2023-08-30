@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>MGK</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" name="Магазин мебели">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230830213703">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="/"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logotype"></picture></a>
+				</div>
+				<div class="header__menu menu">
+
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item" data-popup="#project"><a href="#" class="menu__link">Проекты</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__list, 767.98, 3" class="header__info">
+					<a class="header__phone" href="#">+7 (499) 731-22-32</a>
+				</div>
+				<button type="button" class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<div class="contact">
+				<div class="contact__container">
+					<h1 class="contact__title title">Контакты</h1>
+					<div class="contact__wrapper">
+						<div class="contact__items">
+							<div class="contact__item">
+								<div class="contact__label">Адрес</div>
+								<div class="contact__descr">124498, г. Москва, г. Зеленоград,пр-кт Георгиевский, д. 5, эт/пом/ком 1/I/26В
+								</div>
+							</div>
+							<div class="contact__item">
+								<div class="contact__label">Режим работы</div>
+								<div class="contact__descr">понедельник-пятница
+									9.00 - 18.00
+								</div>
+							</div>
+							<div class="contact__item">
+								<div class="contact__label">Почта</div>
+								<div class="contact__descr">info@мосградком.рф
+								</div>
+							</div>
+						</div>
+						<div class="contact__map">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0949dbf37321a0ae47685fa30c883bb675d2f61fcd1ac586f03a03ffae223bbb&amp;width=100%&amp;height=431&amp;lang=ru_RU&amp;scroll=true&_v=20230830213703"></script>
+						</div>
+					</div>
+				</div>
+
+				<div class="conatct-us">
+					<div class="conatct-us__container">
+						<h2 class="conatct-us__title title">Свзязаться с нами</h2>
+						<from class="conatct-us__form">
+							<div class="conatct-us__wrapper">
+								<label class="conatct-us__label">
+									<input autocomplete="off" type="text" name="phone" data-error="Ошибка" data-value="" class="conatct-us__input input" placeholder="Ваше имя">
+								</label>
+								<label class="conatct-us__label">
+									<input autocomplete="off" type="text" name="name" data-error="Ошибка" data-value="" class="conatct-us__input input" placeholder="Номер телефона">
+								</label>
+								<button class="conatct-us__button button">Отправить заявку</button>
+							</div>
+							<span class="conatct-us__text">Нажимая на кнопку отправить вы соглашаетесь на обработку персональных данных</span>
+						</from>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__title title">Проекты</div>
+				<div class="projects__block">
+					<div class="projects__info">
+						<div class="projects__text">
+							<p>Проектное решение по благоустройству прилегающих территорий комплекса зданий инновационного центра.
+							</p>
+						</div>
+						<div class="projects__text">
+							<p>
+								<span>
+									АО “Завод ПРОТОН”г. Зеленоград, Москва
+									2022
+								</span>
+							</p>
+						</div>
+					</div>
+					<div class="projects__slider">
+						<div class="projects__swiper">
+							<div class="projects__slide">
+								<a href="img/projects/project-1.jpg" class="projects__icon"><picture><source srcset="img/utils/loop.webp" type="image/webp"><img src="img/utils/loop.png" alt=""></picture></a>
+								<div class="projects__image">
+									<picture><source srcset="img/projects/project-1.webp" type="image/webp"><img src="img/projects/project-1.jpg" alt="pic"></picture>
+								</div>
+							</div>
+							<div class="projects__slide">
+								<a href="img/projects/project-1.jpg" class="projects__icon"><picture><source srcset="img/utils/loop.webp" type="image/webp"><img src="img/utils/loop.png" alt=""></picture></a>
+								<div class="projects__image">
+									<picture><source srcset="img/projects/project-1.webp" type="image/webp"><img src="img/projects/project-1.jpg" alt="pic"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="projects__control control">
+							<button class="projects__arrow projects__arrow_prev arrow arrow_prev"><img src="img/utils/Arrow.svg" alt="arrow-prev"></button>
+							<button data-close type="button" class="popup__close">Закрыть</button>
+							<button class="projects__arrow projects__arrow_next arrow arrow_next"><img src="img/utils/Arrow.svg" alt="arrow-next"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230830213703"></script>
+</body>
+
+</html>
